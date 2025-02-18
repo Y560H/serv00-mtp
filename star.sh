@@ -1,5 +1,4 @@
 #!/bin/bash
-
 clear
 echo "==================================================================="
 echo "==================================================================="
@@ -8,14 +7,8 @@ echo "  "
 echo "  "
 echo "==================================================================="
 echo "==================================================================="
-
-
-mtproxy_script="https://raw.githubusercontent.com/Y560H/serv00-mtp/main/mtp.sh"
-
-
-
+mtproxy_script="https://raw.githubusercontent.com/Y560H/serv00-mtp/refs/heads/main/mtp.sh"
 select option in \
-
     "安装 serv00 MTproxy" \
     "退出"
 do
